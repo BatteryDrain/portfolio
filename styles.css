@@ -92,3 +92,14 @@ figure {
 .inline p {
     margin: 0;
 }
+
+@media screen and (max-width: 490px) {
+    .thumbNail {
+        width: 100vw;
+        height: auto;
+    }
+    #face {
+        width: 33vw;
+        height: auto;
+    }
+}
