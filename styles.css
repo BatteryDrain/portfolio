@@ -7,6 +7,12 @@ body {
     font-family: "Mulish", Arial, sans-serif;
 }
 
+section {
+    background-color: lightgray;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
 p {
     max-width: 80ch;
 }
