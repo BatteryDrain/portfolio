@@ -93,6 +93,33 @@ figure {
     margin: 0;
 }
 
+.text {
+    margin-left: 5px;
+}
+.link {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.proj{
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 5px;
+}
+
+.proj p {
+    padding: 0;
+}
+
+.proj img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 490px) {
     .thumbNail {
         width: 100vw;
