@@ -120,6 +120,10 @@ figure {
     border-radius: 10px;
 }
 
+.link p {
+    margin: 0;
+}
+
 @media screen and (max-width: 490px) {
     .thumbNail {
         width: 100vw;
