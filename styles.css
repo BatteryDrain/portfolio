@@ -7,6 +7,10 @@ body {
     font-family: "Mulish", Arial, sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 section {
     background-color: lightgray;
     border-radius: 15px;
@@ -29,21 +33,13 @@ img {
     margin-bottom: 10px;
 }
 
-#moviePath {
-    width: 490px;
-}
-
 #moviePath figure.green {
     background-color: rgb(0, 100, 0);
     border: 4px solid lime;
     padding-top: 10px;
 }
 
-#gamePath {
-    width: 490px;
-}
-
-#checkersPath {
+.path {
     width: 490px;
 }
 
@@ -54,6 +50,12 @@ img {
 }
 
 #checkersPath figure.green {
+    background-color: rgb(0, 100, 0);
+    border: 4px solid lime;
+    padding-top: 10px;
+}
+
+#scriptPath figure.green {
     background-color: rgb(0, 100, 0);
     border: 4px solid lime;
     padding-top: 10px;
@@ -122,6 +124,7 @@ figure {
 
 .link p {
     margin: 0;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 490px) {
@@ -132,5 +135,11 @@ figure {
     #face {
         width: 33vw;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .proj {
+        flex-direction: column;
     }
 }
