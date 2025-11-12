@@ -145,7 +145,6 @@ figure {
     }
     .proj {
         width: 99vw;
-        margin: 0;
         flex-direction: column;
     }
 }
